@@ -6,14 +6,14 @@
 %define __find_debuginfo %{_bindir}/true
 
 Name:		opensbi
-Version:	1.4
+Version:	1.5
 Release:	1
 Summary:	RISC-V OpenSBI Development file
 License:	BSD-2-Clause
 Group:		Development/Other
-Url:		https://github.com/riscv/opensbi
+Url:		https://github.com/riscv-software-src/opensbi
 BuildRequires:	python >= 3.0
-Source:		https://codeload.github.com/riscv-software-src/opensbi/tar.gz/refs/tags/v1.4#/%{name}-%{version}.tar.gz
+Source:		https://codeload.github.com/riscv-software-src/opensbi/tar.gz/refs/tags/v%{version}#/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	cross-riscv64-openmandriva-linux-gnu-binutils
 BuildRequires:	cross-riscv64-openmandriva-linux-gnu-gcc
