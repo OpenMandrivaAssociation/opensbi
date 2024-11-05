@@ -6,7 +6,7 @@
 %define __find_debuginfo %{_bindir}/true
 
 Name:		opensbi
-Version:	1.5
+Version:	1.5.1
 Release:	1
 Summary:	RISC-V OpenSBI Development file
 License:	BSD-2-Clause
